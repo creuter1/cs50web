@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="styles.css">
+
+        <style>
+            p {
+                display: grid;
+                /*background-color: yellow;*/
+
+                padding: 0px;
+                grid-column-gap: 3px;
+                grid-row-gap: 0px;
+                grid-template-columns: 180px 500px;
+            }
+            
+
+        </style>
+    
+    </head>
+    <body>
+
+        <div class="grid-container">
+            <div class="grid-item"></div>
+            <a class="grid-item" href="index.html">Google Search</a>
+        </div>
+
+        <form action="https://google.com/search">
+            <p>Find pages with...</p>
+            <p>all these words: <input class="inputbox" type="text" name="as_q"></p>
+            <p>this exact word or phrase: <input class="inputbox" type="text" name="as_epq"></p>
+            <p>any of these words: <input class="inputbox" type="text" name="as_oq"></p>
+            <p>none of these words: <input class="inputbox" type="text" name="as_eq"></p>
+            
+            <input style="float:right;" class="button" type="submit" value="Advanced Search">
+            
+        </form>
+
+
+    </body>
+</html>

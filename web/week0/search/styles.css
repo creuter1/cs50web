@@ -1,0 +1,53 @@
+
+div.form
+{
+    display: block;
+    text-align: center;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+
+.inputbox {
+	border-radius: 10px;
+	padding: 5px;
+	width: 500px;
+
+}
+
+.grid-container {
+	display: grid;
+	/*background-color: yellow;*/
+
+	padding: 0px;
+	grid-column-gap: 3px;
+    grid-row-gap: 0px;
+    grid-template-columns: 800px 200px;
+}
+
+ .grid-item {
+    background-color: white;
+    font-size: 16px;
+    padding: 0px;
+    text-align: right;
+}
+
+.button {
+	background-color: #339CFF;
+	color: white;
+	padding: 7px;
+	border-radius: 8px;
+}
+
+.home-button{
+	padding: 7px;
+	border-radius: 4px;
+	margin: 15px;
+}
+
+
